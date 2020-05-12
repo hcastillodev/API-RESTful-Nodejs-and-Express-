@@ -1,0 +1,30 @@
+{
+  "name": "api-restful",
+  "version": "1.0.0",
+  "description": "API RESTful",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "restart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devHcastillo/API-RESTful-Nodejs-and-Express-.git"
+  },
+  "keywords": [
+    "API"
+  ],
+  "author": "devHcastillo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devHcastillo/API-RESTful-Nodejs-and-Express-/issues"
+  },
+  "homepage": "https://github.com/devHcastillo/API-RESTful-Nodejs-and-Express-#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.13"
+  }
+}
