@@ -17,7 +17,7 @@ class DataBase {
         c("Connection successful to MongoDB");
       })
       .catch((err) => {
-        c(`Error connecting MongoDB ${err.message}`);
+        c(`Error connecting to MongoDB ${err.message}`);
       });
   }
 }
