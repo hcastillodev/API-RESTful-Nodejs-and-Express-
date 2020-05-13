@@ -23,6 +23,7 @@ const apiResponse = (req, res, err, data) => {
 //get all marathons from DB
 const getMarathons = async (req, res) => {
   await Marathon.find({})
+    .populate('country','name -_id')
     .sort("_id:-1")
     .exec((err, data) => apiResponse(req, res, err, data));
 };
